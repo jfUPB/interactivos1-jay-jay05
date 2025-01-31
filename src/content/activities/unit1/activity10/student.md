@@ -1,7 +1,8 @@
 #### codigo 
 - lo que hice fue partir desde el mismo codigo anerio modificando que ahora ya no mestre un circulo sino un cuadrado y que dependiendo del boton que se usa,
 - muestra un color distinto
-  
+
+```js
 let port;
 let connectBtn;
 let squareColor;
@@ -62,6 +63,7 @@ function connectBtnClick() {
     port.close();
   }
 }
+```
 
 function sendBtnClick() {
   port.write('h');
