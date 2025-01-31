@@ -3,6 +3,7 @@ la manera en la que el circulo se mueve es hacio¿endo que el boton a mueve el c
 a la izquierda con cada vez que se presiona. se hace de una manera tipo plano carteciano donde si se quiere mover a la derecha se le suve el valor en X o si
 hacia la isquierda pues este disminuye el valor en X. 
 
+```js
 let port;
 let connectBtn;
 let circleX;
@@ -60,4 +61,4 @@ function connectBtnClick() {
     port.close();
   }
 }
-
+```
