@@ -85,7 +85,7 @@ function drawHeart(x, y, size) {
 
 ```
 
-``py
+``` py
 from microbit import *
 
 # Inicializa la comunicación UART con el computador
