@@ -2,7 +2,9 @@
 
 - como antes, use el mismo codigo pero remplazando valores, lo comlicado fui hacer que el programa leyera las fotos y las mostrara, por que sin un buen link que supiera leer, pues este no tenia como mostrarlo asi que tuve que subir las imagenes en un programa aparte para luego generar el link y ponerlo en el codigo final. 
 
- codigo: let port;
+ codigo: 
+```js
+let port;
 let connectBtn;
 let images = [];
 let currentImage = 0;
@@ -56,3 +58,4 @@ function connectBtnClick() {
     port.close();  
   }  
 }
+```
