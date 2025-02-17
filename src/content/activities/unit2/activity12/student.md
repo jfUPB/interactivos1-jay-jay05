@@ -1,3 +1,4 @@
+#### codigo: 
 ``` py
 from microbit import *
 import utime
@@ -62,3 +63,6 @@ while True:
     utime.sleep(0.1)
     
 ```
+
+#### video:
+ 
