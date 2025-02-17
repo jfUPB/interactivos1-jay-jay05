@@ -62,5 +62,3 @@ while True:
     utime.sleep(0.1)
     
 ```
-
-#### video: 
