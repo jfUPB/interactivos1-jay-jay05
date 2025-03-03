@@ -12,8 +12,9 @@ def tareaBomba():
     if isEvent == True:
         isEvent = False
         if eventData == "A":
-            display.show(eventData)
-    
+            display.show("A")
+        if eventData == "B":
+            display.show("B")
 
 def tareaEventos():
     global isEvent,eventData
