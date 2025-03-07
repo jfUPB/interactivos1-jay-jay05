@@ -3,34 +3,108 @@ from microbit import *
 import utime
 import music
 
-isEvent = False
-eventData = ""
+CONFIGURACION = 0
+ARMADO = 1
+EXPLOSION = 2
 
-def tareaBomba():
-    global isEvent,eventData
+estado = CONFIGURACION
+contador = 20
+ultimo_tiempo = utime.ticks_ms()
 
-    if isEvent == True:
-        isEvent = False
-        if eventData == "A":
-            display.show("A")
-        if eventData == "B":
-            display.show("B")
+
+evento_ocurrido = False
+evento = ""
+
+secuencia = ['A', 'B', 'A', 'S']
+indice_secuencia = 0
+tiempo_ultima_secuencia = utime.ticks_ms()
+
+def actualizar_display(tiempo):
+    display.show(str(tiempo))
+
+def explotar():
+    display.show("BOOM!")
+    music.play(music.POWER_DOWN)
+    sleep(1000)
+    display.clear()
 
 def tareaEventos():
-    global isEvent,eventData
-
+    global evento_ocurrido, evento
     if button_a.was_pressed():
-        isEvent = True
-        eventData = "A"
+        evento = 'A'
+        evento_ocurrido = True
+
+    if button_b.was_pressed():
+        evento = 'B'
+        evento_ocurrido = True
+
+    if accelerometer.was_gesture("shake"):
+        evento = 'S'
+        evento_ocurrido = True
 
     if uart.any():
-        data = uart.read(1)
-        if data:
-            if data[0] == ord("A"):
-                isEvent = True
-                eventData = "A"
-    
+        mensaje = uart.read().decode('utf-8').strip()
+        if mensaje:
+            evento = mensaje
+            evento_ocurrido = True
+
+def tareaBomba():
+    global estado, contador, ultimo_tiempo, evento_ocurrido, evento, indice_secuencia, tiempo_ultima_secuencia
+
+    if estado == CONFIGURACION:
+        actualizar_display(contador)
+
+        if evento_ocurrido:
+            if evento == 'A' and contador < 60:
+                contador += 1
+                actualizar_display(contador)
+            elif evento == 'B' and contador > 10:
+                contador -= 1
+                actualizar_display(contador)
+            elif evento == 'S':
+                estado = ARMADO
+                ultimo_tiempo = utime.ticks_ms()
+
+            evento_ocurrido = False  # Consumir el evento
+
+    elif estado == ARMADO:
+        tiempo_actual = utime.ticks_ms()
+
+        if indice_secuencia < len(secuencia) and evento_ocurrido:
+            if evento == secuencia[indice_secuencia]:
+                indice_secuencia += 1
+                evento_ocurrido = False  # Consumir el evento
+
+        if indice_secuencia == len(secuencia):
+            estado = CONFIGURACION
+            contador = 20
+            indice_secuencia = 0
+
+        if tiempo_actual - ultimo_tiempo >= 1000:
+            ultimo_tiempo = tiempo_actual
+            if contador > 0:
+                contador -= 1
+                actualizar_display(contador)
+            else:
+                estado = EXPLOSION
+
+    elif estado == EXPLOSION:
+        explotar()
+
+        while True:
+            
+            if uart.any() or pin_logo.is_touched():
+                mensaje = uart.read().decode('utf-8').strip()
+                if mensaje == 'T':
+                    estado = CONFIGURACION
+                    contador = 20
+                    break
+            sleep(50)
+
+
+sleep(500)
+
 while True:
-    tareaBomba()
     tareaEventos()
+    tareaBomba()
 ```
