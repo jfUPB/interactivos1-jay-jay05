@@ -1,0 +1,7 @@
+#### reflexión de programar  
+- Pensando sobre todo lo que he visto en el curso, me he dado cuenta de que he aprendido demasiado. Cuando entré al curso, no sabía ni la mitad de los conceptos que he estudiado hasta ahora. Yo entre al curso
+sabiendo temas muy básicos de programación en otro tipo de lenguaje, y desde que empecé el curso, estoy viendo cosas nuevas.
+- Los conceptos que tengo claro desde antes son muy pocos, tenía una base muy vaga de la programación y cómo se maneja, pero al iniciar este curso he aprendido más términos, maneras de programar y lenguajes de programación diferentes. Me ha costado mucho adaptarme y aprender; sin embargo, he tratado de adaptarme y entender todos los términos usados como la máquina de estados, los arreglos o manejo de errores o las formas nuevas de programar.
+aún me cuesta entender y poner a prueba varios conceptos vistos y ponerlos a prueba en el momento de programar, pero con el curso igualmente sé que he avanzado bastante en mi entendimiento 
+- lo que puedo hacer para mejorar esto y entender mejor los conceptos y cómo aplicarlos es, haciendo muchas más prácticas, creando muchos más códigos y practicando, siendo que la práctica y la repetición son la forma más
+Eficaz de aprender sobre un tema nuevo.  La idea es seguir con el estudio luego de acabar el curso, no cortarlo ahí y seguir aprendiendo más sobre el tema, dandole más tiempo y dedicación. 
