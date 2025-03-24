@@ -16,7 +16,7 @@ while True:
         uart.write('S')
         sleep(100)
     if pin_logo.is_touched():
-        uart.write('L')  # Comando para reiniciar la bomba
+        uart.write('L') 
         sleep(100)
 
 ```
@@ -81,7 +81,7 @@ function setup() {
   buttonL.position(220, 50);
   buttonL.mousePressed(() => {
     sendCommand('L');
-    resetBomb(); // Reinicia la bomba en la interfaz
+    resetBomb(); 
   });
 }
 
@@ -98,7 +98,7 @@ function draw() {
     if (dataRx) {
       tareaEventos(dataRx);
       if (dataRx === 'L') {
-        resetBomb(); // Reinicia la bomba cuando el Micro:bit envía "L"
+        resetBomb();
       }
     }
   }
