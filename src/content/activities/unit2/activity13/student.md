@@ -1,0 +1,4 @@
+#### reflexión:  
+Para la realización de la bomba realmente tuve que tomarme el tiempo de pensar mucho en la forma y orden que esta debe tener. El hecho de aprender sobre los estados es de lo mas importante. 
+Al reflexionar sobre la actividad y toda la unidad en general, me doy cuenta de que nunca antes había entendido o hecho uso de los eventos ya que hasta el día de hoy, no los había sentido necesarios, sin embargo, luego de la charla con el profesor sobre su uso y el porque esta es la mejor forma de realizarlo, entendí y pude ver su funcionalidad.
+La importancia que tiene saber sobre esto y el porque de las cosas, saber que el código necesita tener en cierto modo, un espacio para poder realizar variar tareas en simultaneo si se llega a cumplir una condición, saber sobre me ayudo a tener claro como es que seria al final el código de la bomba que justamente necesitaba tener varias funcionalidades para que fuera exitoso. 
