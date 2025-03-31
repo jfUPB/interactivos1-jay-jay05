@@ -10,6 +10,7 @@ lo que eniendo del codido es: primero se estan escogiendo los colores para lor c
 luego se pone una función donde dependiendo de donde esta el mouse, este circulo reacciona. con otra función lo que hace es ver la distancia entre un circulo y  
 otro. esto hara que se conecten entre si. usando un efecto visual hace que esta se vea fluido
 
-<iframe src="https://editor.p5js.org/juanitaduque/full/Qp4EMQfo3"></iframe>  
+https://editor.p5js.org/juanitaduque/full/Qp4EMQfo3  
+
 
 
