@@ -27,8 +27,15 @@ sketch original: http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_2_3_01
 variación del sketch: https://editor.p5js.org/juanitaduque/full/TdyVQFJJk  
 
 #### ejemplo 3  
-me llamo la atencion: 
-lo que entiendo del codigo: 
+me llamo la atencion: igualmente, con el tema de los solores, me gusta la interpretacion que hace como si estuvieramos rascando una hoja negra para revelar el color de fondo y que este fondo tenga un patron de colores llamativo.  
+
+lo que entiendo del codigo: este codigo es mas simple que los otros, primero se crea el lienzo donde sucede la interaccion, luego de esto se le da el fondo con el patronde colores. con el modo de color, hacemos que se representen los colores del RGB. con una función s cuando se lee que dependiendo de donde este el mouse y  
+usando el clic, es cuando se deja la linea del color establecido.  
+
+sketch original: https://p5js.org/examples/animation-and-variables-drawing-lines/  
+- la aiació que hice es que al momento de presionar la tecla espaciadora, se cambia la tonalidad del color.  
+variación del sketch: https://editor.p5js.org/juanitaduque/full/RXvB4LbWa
+
 
 
 
