@@ -25,6 +25,10 @@ la figura cambie de forma, se pause o se reinicie.
 sketch original: http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_2_3_01  
 variación del sketch: https://editor.p5js.org/juanitaduque/full/TdyVQFJJk  
 
+#### ejemplo 3  
+me llamo la atencion: 
+lo que entiendo del codigo: 
+
 
 
 
