@@ -151,3 +151,5 @@ function tareaBomba() {
   }
 }
 ```
+#### codigo arreglado:  
+https://editor.p5js.org/juanitaduque/full/A0QTJSL2t  
