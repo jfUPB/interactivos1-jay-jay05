@@ -23,6 +23,7 @@ con otra funcion se le dice que cuando se presiona el clic, la figura se regener
 la figura cambie de forma, se pause o se reinicie.  
 
 sketch original: http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_2_3_01  
+- la varicion que le hice fue que al momento de presinar la tecla C, la figura cambia de color de negra a morado y vuelve a negro de la misma manera.  
 variación del sketch: https://editor.p5js.org/juanitaduque/full/TdyVQFJJk  
 
 #### ejemplo 3  
