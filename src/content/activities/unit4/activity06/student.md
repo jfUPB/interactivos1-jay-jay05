@@ -42,8 +42,18 @@ dice si hay espacio disponible para los datos y si estos pueden leerse.
 el programa prodria tener problemas y no mostraria la informacion pedida, esto porque si no se se verifica si hay datos o no, el programa poria estar leyendo datos  
 nulos. este auda como una seguridad para saber que los datos estan listos.  
 #### ¿Cómo se elimina el retorno de carro o salto de línea de un string en p5.js?  
+encuentro que una forma para remplazarlo es usando esta funcion: trim() que lo que hace es eliminar cualquier espacio en blanco.  
+#### Si una cadena tiene información separada por espacios y quieres dividir dicha información en varias cadenas individuales ¿Qué función de p5.js usarías?  
+para esto, la funcion que sirve seria: split().  
+#### Por qué es necesario en la aplicación del caso de estudio convertir las cadenas a números enteros antes de usarlas en el sketch de p5.js?  
+esto es importante, ya que de por si ya se necesitan muchos numeros en los datos a enviar, esto es para que el programa pueda identificar sin tanto problema.  
+#### Si el micro:bit tiene los siguientes datos xValue: 123, yValue: 756, aState: False, bState: True ¿Qué bytes se enviarían por el puerto serial?  
 
-
-
+#### ¿Qué aprendiste nuevo del micro:bit que no sabías antes?
+me he dado cuanta que este aparato tiene una infinidad de funcionalidades para trabajar y explorar formas distintas de programar. de que existen muchas formas de  
+explorar de una manera mas practica y rapida antes de realizarlo en una escala mas grande.   
+#### ¿Qué aprendiste nuevo de p5.js que no sabías antes?
+de p5 aprendi casi todo lo que no sabia, todas las funcionalidades que este tiene, que no solo es programacion numerica o estandar sino que incluye muchas cosas  
+por ejemplo todos los ejemplos visuales y artisticos que se pueden crear con este
 
 
