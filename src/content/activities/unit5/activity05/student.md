@@ -26,4 +26,12 @@ los 8 datos, el codigo no va a seguir.
 separar solo los datos necesarios sin dañar los otros.
 - splice sirve para modificar el arreglo original, puede servir para usar el arreglo modificado en el sigiente conjunto de bytes.
 - A la siguiente parte del código se le conoce como programación funcional ¿Cómo opera la función reduce?
+la funcion reduce es un mtodo de java script para reducir o acumular todos los elementos de un arreglo en un solo datos. dataBytes es el arreglo de numeros y con acc se empiezan a acumular los datos.
+- la comparacion de el checksum calculado y el checksum recibido sirve como verificación de los datos, ya que como habia dicho antes, el checksum lo que hace es revisar si hay algun tipo de error antes de enviar los datos o seguir el codigo, en otras palabras, se recolectan los datos en las dos partes, lo que hacen estos dos es compararse y ver si todos los datos son iguales. si los checksums no coinciden ahi es cuando se imprime un error en la consola.  esto para poder encontrar errores en el codigo y poder corregirlo.
+- En el código anterior qué hace la instrucción continue? ¿Por qué?
+por lo  que me quedo entendido de la explicacion anterior de continue, este la funcion que tiene es, repetir el bucle de codigo hasta que la condicion pedidaa, se cumpla por completo, hasta que eso suceda, este bucle seguira dando vueltas en la misma parte y cuando ya este completa, el codigo seguira su curso. esto seria para revisar si hay errores den esta parte.
+- Qué es un DataView? ¿Para qué se usa?
+dataview te sirve para leer los diferentes tipos de datos de forma mas sencilla, te permite leer y escribir en el mismo buffer usando distintos tipos de datos.
+- ¿Por qué es necesario hacer estas conversiones y no simplemente se toman tal cual los datos del buffer?
+ son necesarias para interpretar correctamente los datos binarios que vienen del buffer. com los datos del buffer estan escitos de forma cruda, para poder entenderlos de mejor manera, es necesario convertir los datos a una manera mass entendible. En resumen, estas conversiones son necesarias para transformar el flujo de datos binarios del buffer en información útil y comprensible (coordenadas y estados de botones) que pueda ser utilizada en el programa.  
 
