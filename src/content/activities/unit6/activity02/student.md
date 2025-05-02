@@ -1,4 +1,4 @@
-e#### internet  
+#### internet  
 como esta conectado el internet? se que este se conecta mediante cables por todo el mundo, asi es como nos mantenemos conectados pero el como se conecta mi celular a wifi ya seria por medio de ondas que se envian, conectar  
 sin necesidad de nada fisico. que pasaria si esa rampa se corta? me lo imagino como si algun cable se dañara, cortar o dejara de servir, asumo que una gran parte de poblacion empezaria a tener limitaciones en las conecciones   
 o tal vez no es esa misma zona, pero talvez entre un lugar y otro.  
