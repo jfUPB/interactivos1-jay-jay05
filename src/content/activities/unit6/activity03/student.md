@@ -1,3 +1,12 @@
 porque es importante usar los modulos y galerias: yo veo esto como importante ya que en el mundo de la programacion existen miles de lenguajes, formas y estilos de programar, para manejar esto se debe tener un control de lo que se va a usar, ya que  
 en un proyecto que quiera realizar de cualquier cosa, obviamnete no voy a necesitar usar todas las formas, lenguajes o usos de la programacion, voy nesecitra solo algunos asi que siento que esta es la importancia al moemnto de usar modulos y galerias,  
 para no saturar los codigo y tener un orden que lo que me sirve y lo que no.   
+experimentación 1: al momento de cambiar al codigo y abrir la pagina, lo quee sucedio es que ahora no solo eran dos circulos interactuando, sino 3, y dependiendo del circulo que presionara, a este se le daba el "protagonismo", ya que los tres interactuaban en conjunto pero solo dos se conectaban por medio de la linea.  
+experimentación 2: Cannot GET /page1 -  esto es lo que aparece al cambiar de page1, a pagina 1, me imagino que sicede porque ya la page1 debe estar declarada en otro lado, por esto es la el programa no logra comprender que es lo que estoy llamando, esto debe ser con los mismo nombres todo el codigo.  
+lo que pasa al abrir y cerrar las paginas es que en la terminal me indica cuando el usuario entra o sale del servidor, me avisa en que momento se conectca y desconecta, taambien con un arreglo del codigo, este puede indicar cual usuario y en que servidor esta trabajando, como usuario 1, usuario 2, etc.  
+Received win2update from ID: mEXO7DuIUDFRzXQjAAAD Data: { x: 774, y: 679, width: 766, height: 736 }
+Received win2update from ID: mEXO7DuIUDFRzXQjAAAD Data: { x: 774, y: 679, width: 768, height: 736 }
+Received win1update from ID: qPHseof6AZuiguHTAAAB Data: { x: 869, y: 516, width: 764, height: 735 }
+Received win1update from ID: qPHseof6AZuiguHTAAAB Data: { x: 871, y: 512, width: 764, height: 735 }  
+esto lo que me da a entender es que en la terminal, al agregarle esa extra al codigo, lo que empieza a mostrar la terminal es como la ubicacion de las paginas, cuando todo esta quieto, no hace nada, al momento de mover uno de estos, me muesra los datos y me indica cual de las dos paginas estoy moviendo.  
+al cambiar el const port de 3000 a 3001, pasa lo mismo que antes, la pagina que funciona y abre bien es la que esta declarada como 3001, la 3000 ya no funciona como antes.  
